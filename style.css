@@ -1,0 +1,14 @@
+.respuesta{
+    background: #2D2D2D;
+    height: 0px;
+    color: transparent;
+    transition: height 0.8s linear;margin-top: 1s linear color 0.5s ease;
+    margin-top: -20px;
+}
+.pregunta:hover + .respuesta{
+    height: 250px;
+    color: white;
+    margin-top: 33px;
+
+    
+}
